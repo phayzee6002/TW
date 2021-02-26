@@ -1,0 +1,196 @@
+
+  @font-face {
+    font-family: myFirstFont;
+    src: url(/ArcaMajora3-Bold.woff2);
+  }
+  /* Use that font in a page */
+ html {
+    font-family: Arca Majora 3 Bold;
+    color: whitesmoke;
+} 
+
+body {
+    height: 100%;
+    margin: 0;
+    height: auto;
+    background: url("pics/bginbg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0px 0px 1px black, 2px 2px 2px black;
+    text-shadow: 1px 1px 1px #000000, 1px 1px 1px #000000, 1px 1px 1px #000000, 1px 1px 1px #000000;
+    font-family: myFirstFont;
+}
+
+.main-top {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    width: 90%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+.title {
+    width: 100%;
+    margin: 2% auto;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 300%;
+}
+
+.menu{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: rgba(204, 204, 204, 0.3);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.list {
+    text-decoration: none;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+}
+                              
+.menu-item {
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 100%;
+    font-size: 200%;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: rgba(204, 204, 204, 0.7);
+    border-radius: 2px;
+    transition: 0.5s;
+}
+
+.dropdown-btn {
+    font-size: 200%;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px #000000, 1px 1px 1px #000000, 1px 1px 1px #000000, 1px 1px 1px #000000;
+    font-family: Arca Majora 3 Bold;
+
+}
+
+.dropdown-btn:hover {
+    background-color: rgba(204, 204, 204, 0.7);
+    border-radius: 2px; 
+    transition: 0.5s;
+}
+
+.btn-content {
+    width: inherit;
+    display: none;
+    position:relative;
+    z-index: 1;    
+}
+
+.btn-content a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 12px 16px;
+
+}
+
+.dropdown:hover .btn-content {
+    display: block;
+    transition: all 1s ease 1s;
+}
+
+.btn-content a:hover {
+    background-color: rgba(204, 204, 204, 0.7);
+    border-radius: 2px;
+    transition: 0.5s;
+   
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 5% 0 5%;
+    background-color: rgba(204, 204, 204, 0.3);
+}
+
+.book {
+    box-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+}
+
+.left {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+}
+
+.right {
+    width: 75%;
+}
+
+img {
+    width: 100%;
+    height: inherit;
+}
+
+.content {
+    width: 50%;
+}
+
+.pic {
+    margin: auto;
+    width: 50%;
+}
+
+p {
+    margin-left: 5%
+}
+
+#buton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px; 
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+#buton:hover {
+    background-color: gray;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+
+#wrapper {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
