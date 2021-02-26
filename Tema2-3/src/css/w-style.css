@@ -1,0 +1,112 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(/ArcaMajora3-Bold.woff2);
+  }
+
+  body {
+      transition: 1s;
+      font-family: myFirstFont;
+      background-color: gray;
+      margin: 0;
+  }
+
+  #menu {
+      transition: 1s;
+      padding: 30px;
+      background-color: black;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;     
+  }
+
+  li {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 300px;
+  }
+
+  #add {
+    transition: 1s;
+    font-family: myFirstFont;
+    background-color: rgb(187, 128, 0); /* Green */
+    transition: background-color 0.5s ease-in-out;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  #add:hover {
+    background-color: rgb(255, 174, 0);
+    transition: 0.5s;    
+  }
+
+  #clear {
+    transition: 1s;
+    font-family: myFirstFont;
+    background-color: rgb(187, 128, 0); /* Green */
+    transition: background-color 0.5s ease-in-out;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  #clear:hover {
+    background-color: rgb(255, 174, 0);
+    transition: 0.5s;    
+  }
+
+  #clear_all {
+    font-family: myFirstFont;
+    background-color: rgb(187, 128, 0); /* Green */
+    transition: background-color 0.5s ease-in-out;
+    transition: 1s;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  #clear_all:hover {
+    background-color: rgb(255, 174, 0);
+    transition: 0.5s;    
+  }
+
+  input {
+    transition: 1s;
+    border: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    padding: 15px 32px;
+    vertical-align: middle;
+
+  }
+
+  button {
+    width: 250px;
+    vertical-align: middle;
+    }
