@@ -1,7 +1,7 @@
 
   @font-face {
     font-family: myFirstFont;
-    src: url(ArcaMajora3-Bold.woff2);
+    src: url(/Tema1/ArcaMajora3-Bold.woff2);
   }
   /* Use that font in a page */
  html {
@@ -13,7 +13,7 @@ body {
     height: 100%;
     margin: 0;
     height: auto;
-    background: url("pics/bginbg.png");
+    background: url("/Tema1/pics/bginbg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -30,7 +30,7 @@ body {
     display: table;
     width: 90%;
     height: auto;
-    background-color: rgba(204, 204, 204, 0.3);
+    background-color: rgba(0, 0, 0, 0.404);
 }
 
 .title {
@@ -47,7 +47,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
-    background-color: rgba(204, 204, 204, 0.3);
+    background-color: rgba(0, 0, 0, 0.404);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -71,7 +71,7 @@ body {
 }
 
 .menu-item:hover {
-    background-color: rgba(204, 204, 204, 0.7);
+    background-color: rgba(0, 0, 0, 0.404);
     border-radius: 2px;
     transition: 0.5s;
 }
@@ -88,7 +88,7 @@ body {
 }
 
 .dropdown-btn:hover {
-    background-color: rgba(204, 204, 204, 0.7);
+    background-color: rgba(0, 0, 0, 0.404);
     border-radius: 2px; 
     transition: 0.5s;
 }
@@ -115,7 +115,7 @@ body {
 }
 
 .btn-content a:hover {
-    background-color: rgba(204, 204, 204, 0.7);
+    background-color: rgba(0, 0, 0, 0.404);
     border-radius: 2px;
     transition: 0.5s;
    
@@ -125,7 +125,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 5% 5% 0 5%;
-    background-color: rgba(204, 204, 204, 0.3);
+    background-color: rgba(0, 0, 0, 0.404);
 }
 
 .book {

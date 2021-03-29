@@ -1,7 +1,7 @@
 
   @font-face {
     font-family: myFirstFont;
-    src: url(ArcaMajora3-Bold.woff2);
+    src: url(/Tema1/ArcaMajora3-Bold.woff2);
   }
   /* Use that font in a page */
  html {
@@ -13,7 +13,7 @@ body {
     height: 100%;
     margin: 0;
     height: auto;
-    background: url("pics/bginbg.png");
+    background: url("/Tema1/pics/bginbg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
